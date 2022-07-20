@@ -1,15 +1,11 @@
 const perguntaA = "Você comeu hoje?";
-let respostaA = prompt (perguntaA);
 const perguntaB = "Você tomou água?";
-let respostaB = prompt (perguntaB);
 const perguntaC = "Você viu o sol hoje?";
+
+let respostaA = prompt (perguntaA);
+let respostaB = prompt (perguntaB);
 let respostaC = prompt (perguntaC);
 
-
-let sim = "sim";
-let nao = "não";
-let naoSei = "não sei";
-
-console.log(perguntaA, "-", sim);
-console.log(perguntaB, "-", sim);
-console.log(perguntaC, "-", naoSei);
+console.log(perguntaA, respostaA);
+console.log(perguntaB, respostaB);
+console.log(perguntaC, respostaC);
